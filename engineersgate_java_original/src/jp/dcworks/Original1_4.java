@@ -8,11 +8,13 @@ public class Original1_4 {
 		// 1-100までの数値を代入
 		for (int i = 0; i < 100; i++) {
 			arr[i] = i + 1;
-			
-			// 偶数のみ表示
-			if(arr[i] %2 == 0) {
-				System.out.print(arr[i] + " ");
-			}
+		}
+		
+		// 偶数のみ出力
+		for (int i = 0; i < 100; i++) {
+		    if (arr[i] % 2 == 0) {
+		        System.out.print(arr[i] + " ");
+		    }
 		}
 	}
 }

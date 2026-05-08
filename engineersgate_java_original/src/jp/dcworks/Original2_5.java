@@ -6,12 +6,7 @@ public class Original2_5 {
 	static Point p2 = new Point(-3, 18);
 	
 	public static void main (String[] args) {
-		System.out.println(difference());
-	}
-	
-	// 座標の距離計算
-	static double difference() {
-		return Math.sqrt((p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y));
+		System.out.println(p1.distance(p2));
 	}
 }
 
@@ -23,4 +18,12 @@ class Point {
 		this.x = x;
 		this.y = y;
 	}
+	
+	// 座標の距離計算
+	public double distance(Point other) {
+        return Math.sqrt(
+            (this.x - other.x) * (this.x - other.x) +
+            (this.y - other.y) * (this.y - other.y)
+        );
+    }
 }
