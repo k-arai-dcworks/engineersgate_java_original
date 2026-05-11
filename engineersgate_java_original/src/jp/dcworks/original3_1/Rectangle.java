@@ -2,7 +2,7 @@ package jp.dcworks.original3_1;
 
 //長方形
 class Rectangle implements Shape {
-	double base, height;
+	private double base, height;
 
 	// コンストラクタ
 	Rectangle(double base, double height) {

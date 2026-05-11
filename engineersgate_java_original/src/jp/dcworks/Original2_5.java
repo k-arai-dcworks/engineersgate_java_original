@@ -11,7 +11,7 @@ public class Original2_5 {
 }
 
 class Point {
-	int x, y;
+	private int x, y;
 	
 	// コンストラクタ
 	Point(int x, int y) {

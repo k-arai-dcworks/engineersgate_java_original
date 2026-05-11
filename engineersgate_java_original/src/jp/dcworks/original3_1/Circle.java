@@ -2,7 +2,7 @@ package jp.dcworks.original3_1;
 
 //円
 class Circle implements Shape {
-	double radius;
+	private double radius;
 
 	// コンストラクタ
 	Circle(double radius) {

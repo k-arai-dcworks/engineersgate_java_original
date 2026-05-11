@@ -31,7 +31,7 @@ public class Original2_2 {
 	}
 
 	// 商
-	public static Integer quotient(Integer num1, Integer num2) {
+	public static Integer quotient(int num1, int num2) {
 		if(num2 == 0) {
 			return null;
 		} else {

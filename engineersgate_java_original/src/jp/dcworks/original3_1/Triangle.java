@@ -2,7 +2,7 @@ package jp.dcworks.original3_1;
 
 //正三角形
 class Triangle implements Shape {
-	double side;
+	private double side;
 
 	// コンストラクタ
 	Triangle(double side) {

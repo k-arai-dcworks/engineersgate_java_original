@@ -2,7 +2,7 @@ package jp.dcworks.original2_4;
 
 public class Quotient {
 	// インスタンス変数定義
-	private Integer num1, num2;
+	private int num1, num2;
 
 	// コンストラクタ
 	Quotient(int num1, int num2) {

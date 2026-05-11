@@ -2,7 +2,7 @@ package jp.dcworks;
 
 public class Original2_1 {
 	public static void main (String[] args) {
-		int result = sum(10,2);
+		int result = sum(10, 2);
 		System.out.print(result);	// sumで返された値を出力
 	}
 	
