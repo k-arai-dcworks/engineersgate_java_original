@@ -1,13 +1,11 @@
 package jp.dcworks;
-
-// Map利用のためにインポート
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Original1_5 {
 	public static void main (String[] args) {
 		// HashMapを定義
-		Map<Integer, String> map = new HashMap<>();
+		Map<Integer, String> map = new LinkedHashMap<>();
 		map.put(1, "りんご");
 		map.put(2, "いちご");
 		map.put(3, "みかん");

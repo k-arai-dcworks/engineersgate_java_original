@@ -7,10 +7,10 @@ public class Original1_1 {
 		String str2 = "bbb";
 		System.out.println("1: " + str1 + " ,2: " + str2);
 		
-		// 反転処理
-		String str3 = str1;
+		// 値の入れ替え
+		String tmp = str1;
 		str1 = str2;
-		str2 = str3;
+		str2 = tmp;
 		System.out.println("1: " + str1 + " ,2: " + str2);
 	}
 }
